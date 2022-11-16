@@ -1,22 +1,17 @@
 <?php
 
 
-// $raneu = " raneu ";
-// echo 10;
+$raneu = " raneu ";
 
-$gararetek = [["raneu","tayo"],  ["raneu","tayo"]];
+$gararetek = ["raneu", 123, "suhu", 456];
 // var_dump($gararetek);
-// echo 10;
+
+
 
 foreach($gararetek as $raneu){
-    foreach($raneu as $RA){
-    echo $RA;
+    echo $raneu . "<br>";
     }
-}
 
-// for($i=0;$i<10;$i++){
-//     echo "raneu";
-// }
 
 
 ?>
