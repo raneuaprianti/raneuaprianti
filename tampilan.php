@@ -7,12 +7,15 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="proces.php" method="GET">
+    <form action="percabangan.php" method="POST"> 
+    <!-- <form action="percabangan.php" method="GET">  -->
 
-        <input type="text" name="nama_depan">
-        <input type="text" name="nama_belakang">
+        <input type="text" name="Raneu">
+        <!-- <input type="number" name="Raneu"> -->
+        <input type="text" name="Aprianti">
         <input type="submit" value="kirim">
     </form>
+
 
 </body>
 </html>
