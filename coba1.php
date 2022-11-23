@@ -7,8 +7,9 @@ include 'coba2.php';
 // echo "awikwok academy";
 
 // include 'coba2.php'
-
-$data = mysqli_query($koneksi, "SELECT * FROM `coba`");
+// $nama = "Udin";
+$nama = $_POST ['nama'];
+$data = mysqli_query($koneksi, "SELECT * FROM `awikwok` where `nama` = '$nama' ");
 
 // if($koneksi == true){
 //     echo "koneksi berhasil";

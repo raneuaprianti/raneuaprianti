@@ -7,12 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="percabangan.php" method="POST"> 
+    <form action="coba1.php" method="POST"> 
     <!-- <form action="percabangan.php" method="GET">  -->
 
-        <input type="text" name="Raneu">
+        <input type="text" name="nama">
         <!-- <input type="number" name="Raneu"> -->
-        <input type="text" name="Aprianti">
+        
         <input type="submit" value="kirim">
     </form>
 
