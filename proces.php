@@ -1,7 +1,11 @@
 <?php
+$id = $_GET['id'];
+echo $data;
 
-$Raneu = $_GET['Raneu'];
-$Aprianti = $_GET['Aprianti'];
+include 'coba2.php';
+$data = mysqli_query($koneksi, "DELETE FROM `coba` WHERE 'id' = '$data' ");
+// $Raneu = $_GET['Raneu'];
+// $Aprianti = $_GET['Aprianti'];
 
 
 // if($Raneu == "A"){

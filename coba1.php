@@ -8,8 +8,8 @@ include 'coba2.php';
 
 // include 'coba2.php'
 // $nama = "Udin";
-$nama = $_POST ['nama'];
-$data = mysqli_query($koneksi, "SELECT * FROM `awikwok` where `nama` = '$nama' ");
+// $nama = $_POST ['nama'];
+$data = mysqli_query($koneksi, "SELECT * FROM `coba` ");
 
 // if($koneksi == true){
 //     echo "koneksi berhasil";
@@ -20,8 +20,15 @@ $data = mysqli_query($koneksi, "SELECT * FROM `awikwok` where `nama` = '$nama' "
 foreach ($data as $data ){
     echo $data ['nama']."&nbsp";
     echo $data ['kelas']."&nbsp";
-    echo $data ['nilai']."<br>";
+    echo $data ['nilai'];
 }
+
+
+?>
+<a href="proces.php?id=<?php $data['id']?>">delete</a><br>
+<?php
+
+
 
 
 ?>
